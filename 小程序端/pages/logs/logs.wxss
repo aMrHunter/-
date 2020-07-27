@@ -1,0 +1,42 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+  left: 25%; 
+  top:5%;
+  font-style:  oblique ;
+  font-family: STXingkai;
+  font-size: x-large;
+  
+}
+.log-item {
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+  left: 10%; 
+  top:5%;
+  font-style:  oblique ;
+  font-family: STXingkai;
+  font-size: larger;
+}
+.log-name {
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+  left: 25%; 
+  top:20%;
+    font-style:  oblique ;
+  font-family: STKaiti;
+  font-size: large;
+}
+.backimg{
+
+  background-image: url(http://img5.imgtn.bdimg.com/it/u=4115007225,1356493266&fm=15&gp=0.jpg),
+  url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1584731567461&di=ee6dad07218b0ccf5406c501036e4cac&imgtype=0&src=http%3A%2F%2Fphotocdn.sohu.com%2F20160122%2Fmp56069582_1453469794725_8.jpg);
+  /* padding-top: 174rpx;
+  padding-bottom: 250rpx; */
+  width: 750rpx;
+  height: 1200rpx;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

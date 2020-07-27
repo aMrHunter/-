@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "小诗人",
+    "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "tfjsPlugin": {
+      "version": "0.0.6",
+      "provider": "wx6afed118d9e81df9"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}

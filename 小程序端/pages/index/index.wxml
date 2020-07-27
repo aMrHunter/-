@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="image" style="width: 100px; height: 100px;" src="{{url[0]}}"></image>
+  <view style="margin-top: 30px;">
+    <view class="page__bd">
+        <view class="section section_gap">
+            <radio-group class="radio-group" bindchange="radioChange">
+              <view class="userinfo">
+                <radio class="radio" wx:for-items="{{items}}" wx:key="name" value="{{item.name}}" checked="{{item.checked}}" style="margin-top: 10px;">
+                    <text>{{item.value}}</text>
+                </radio>
+              </view>
+              <!-- <view>
+                <text style="padding-right: 20px;">自由诗</text>
+                <switch checked bindchange="bindChange"/>
+                <text style="padding-left: 20px;">藏头诗</text>
+              </view> -->
+            </radio-group>
+        </view>
+    </view>
+  </view>
+   <view class="page-section" style="margin-top: 30px;">
+    <!-- <view class="weui-cells__title">控制最大输入长度的input</view> -->
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="input"   maxlength="8" disabled="{{cor}}" bindinput="bindKeyInput" placeholder="{{used}}" />
+      </view>
+    </view>
+  </view>
+  <view class="page-section" style="margin-top: 20px;">
+    <!-- <view class="weui-cells__title">控制最大输入长度的input</view> -->
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="input"   maxlength="8"  bindinput="bindKeyInput_title" placeholder="请输入题目" />
+      </view>
+    </view>
+  </view>
+  <view class="page-section" style="margin-top: 20px;">
+    <!-- <view class="weui-cells__title">控制最大输入长度的input</view> -->
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="input"   maxlength="4"  bindinput="bindKeyInput_name" placeholder="请输入作者名字" />
+      </view>
+    </view>
+  </view>
+   
+  <button type="primary" bindtap="bindSubmitText" style="margin-top: 30px;">开始写诗{{}}</button>
+
+</view>
