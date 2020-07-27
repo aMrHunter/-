@@ -6,11 +6,11 @@
 
 
 
-![](https://github.com/aMrHunter/AI-poem/blob/master/img/1.png)
+![image-1](https://github.com/aMrHunter/AI-poem/blob/master/img/1.png)
 
 ### 效果展示
 
-![](https://github.com/aMrHunter/AI-poem/blob/master/img/2.png)
+![image-2](https://github.com/aMrHunter/AI-poem/blob/master/img/2.png)
 
 
 
