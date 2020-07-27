@@ -6,13 +6,11 @@
 
 
 
-![image-20200727180402350](C:\Users\a8389\AppData\Roaming\Typora\typora-user-images\image-20200727180402350.png)
+![](https://github.com/aMrHunter/AI-poem/blob/master/img/1.png)
 
 ### 效果展示
 
-![image-20200727180523282](C:\Users\a8389\AppData\Roaming\Typora\typora-user-images\image-20200727180523282.png)
-
-
+![](https://github.com/aMrHunter/AI-poem/blob/master/img/2.png)
 
 
 
